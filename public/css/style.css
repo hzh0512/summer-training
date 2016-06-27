@@ -1,0 +1,28 @@
+body {
+    font-family: Arial;
+    font-size: 14px;
+    background-image: url("../img/bg.jpg");
+    background-position: 100px
+}
+
+.displaybox {
+    border-radius:25px;
+    box-shadow: 3px 3px 3px #888888;
+    min-height: 200px;
+}
+
+.displaybox table{
+    overflow-y: scroll;
+    max-height: 20px;
+}
+
+.displaybox table caption{
+    font-size: 1.4em;
+}
+
+.author{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.2em;
+    text-shadow: 3px 3px 3px #888888;
+}
